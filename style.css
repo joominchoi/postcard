@@ -10,8 +10,8 @@
 @font-face {
   font-family: "typewriter";
   src:
-    url("fonts/momot___-webfont.woff2") format("woff2"),
-    url("fonts/momot___-webfont.woff") format("woff");
+    url("fonts/mom-webfont.woff2") format("woff2"),
+    url("fonts/mom-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -53,4 +53,10 @@ h1 {
 #from,
 #reply {
   display: flex;
+}
+
+label {
+  font:
+    0.8em "typewriter",
+    sans-serif;
 }
